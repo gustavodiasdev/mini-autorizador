@@ -1,7 +1,5 @@
 package dev.gustavodias.miniautorizador.service;
 
-import dev.gustavodias.miniautorizador.dto.CartaoResponse;
-import dev.gustavodias.miniautorizador.exception.SaldoInsuficienteException;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
