@@ -1,4 +1,4 @@
-# API Mini Autorizador [![Build Status](https://app.travis-ci.com/gustavodiasdev/TinnovaApi.svg?branch=main)](https://app.travis-ci.com/gustavodiasdev/TinnovaApi)
+# API Mini Autorizador
 
 ### Sobre o projeto:
 Projeto criado para criação das APIs em Java/Spring.
