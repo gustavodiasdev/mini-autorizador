@@ -22,4 +22,11 @@ public class Cartao {
 
     private BigDecimal saldo;
 
+
+    public Cartao(String numeroCartao, String senha) {
+        this.numeroCartao = numeroCartao;
+        this.senha = senha;
+        this.saldo = new BigDecimal("500.00");
+    }
+
 }
