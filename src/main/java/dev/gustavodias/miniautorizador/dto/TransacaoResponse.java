@@ -17,5 +17,4 @@ public class TransacaoResponse {
 
     private String numeroCartao;
     private BigDecimal valor;
-    private String senha;
 }

@@ -1,5 +1,6 @@
 package dev.gustavodias.miniautorizador.controller;
 
+import dev.gustavodias.miniautorizador.dto.TransacaoRequest;
 import dev.gustavodias.miniautorizador.dto.TransacaoResponse;
 import dev.gustavodias.miniautorizador.service.TransacaoService;
 import org.springframework.http.ResponseEntity;
@@ -20,7 +21,7 @@ public class TransacaoController {
     }
 
     @PostMapping
-    public ResponseEntity<TransacaoResponse> createTransacao(@RequestBody TransacaoResponse transacaoRequest) {
+    public ResponseEntity<TransacaoResponse> createTransacao(@RequestBody TransacaoRequest transacaoRequest) {
         transacaoService.create(transacaoRequest.getNumeroCartao(), transacaoRequest.getSenha(), transacaoRequest.getValor());
         return ResponseEntity.ok().build();
     }
